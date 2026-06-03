@@ -6,9 +6,9 @@ O giro Orbital é um aplicativo desenvolvido para monitoramento inteligente de m
 
  ## 👨‍🚀 Equipe
  
-| Giovanni de Lela | RM 563066 |
-| Gabriel Hiro Nakamura | RM 562221 |
-| Gisleine Muñoz Ticona | RM 563804 |
+- | Giovanni de Lela | RM 563066 |
+- | Gabriel Hiro Nakamura | RM 562221 |
+- | Gisleine Muñoz Ticona | RM 563804 |
 
 ## 📱 Telas do Aplicativo
 
@@ -62,22 +62,22 @@ Tela de configuração que permite ao usuário definir limites operacionais pers
 - [x]Animações utilizando React Native Reanimated
 
 ## 🛠 Tecnologias Utilizadas
--React Native
--Expo
--TypeScript
--Expo Router
--Context API
--AsyncStorage
--React Native Reanimated
--Expo Linear Gradient
--Expo Vector Icons
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- Context API
+- AsyncStorage
+- React Native Reanimated
+- Expo Linear Gradient
+- Expo Vector Icons
 
 ## ▶️ Como Executar o Projeto
 Pré-requisitos
--Node.js instalado
--Expo CLI
+- Node.js instalado
+- Expo CLI
 npm install -g expo-cli
--Expo Go instalado no celular
+- Expo Go instalado no celular
 
 ### Instalação
 
