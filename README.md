@@ -2,7 +2,7 @@
 ### Global Solution 2026.1 — Cross-Platform Application Development | FIAP
 
 ## Descrição
-O giro Orbital é um aplicativo desenvolvido para monitoramento inteligente de missões espaciais por meio de dashboards interativos e análise de indicadores críticos. A solução auxilia na identificação antecipada de riscos relacionados à temperatura, energia e comunicação da estação orbital, permitindo respostas rápidas antes que falhas afetem a missão. Como diferencial, o aplicativo reúne monitoramento em tempo real simulado, sistema de alertas automáticos, persistência de configurações e suporte a temas visuais espacial e solar.
+O Giro Orbital é um aplicativo desenvolvido para monitoramento inteligente de missões espaciais por meio de dashboards interativos e análise de indicadores críticos. A solução auxilia na identificação antecipada de riscos relacionados à temperatura, energia e comunicação da estação orbital, permitindo respostas rápidas antes que falhas afetem a missão. Como diferencial, o aplicativo reúne monitoramento em tempo real simulado, sistema de alertas automáticos, persistência de configurações e suporte a temas visuais espacial e solar.
 
  ## 👨‍🚀 Equipe
  
