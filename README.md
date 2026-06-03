@@ -13,7 +13,8 @@ O giro Orbital é um aplicativo desenvolvido para monitoramento inteligente de m
 ## 📱 Telas do Aplicativo
 
 ### Home — Dashboard Principal
-<img src="https://github.com/user-attachments/assets/05d828dd-1ccb-4a88-8a11-260f90290117" width="300" /> <img src="https://github.com/user-attachments/assets/d62f7d8b-958f-4197-aeca-6327379a839c" width="300" />
+<img src="https://github.com/user-attachments/assets/05d828dd-1ccb-4a88-8a11-260f90290117" width="300" />
+<img src="https://github.com/user-attachments/assets/d62f7d8b-958f-4197-aeca-6327379a839c" width="300" />
 Tela inicial responsável por apresentar uma visão geral da missão espacial, exibindo os principais indicadores monitorados pelo sistema, como temperatura orbital, nível de energia, status da comunicação e alertas ativos.
 
 ### Dashboard de Sensores
