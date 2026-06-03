@@ -1,4 +1,4 @@
-# 🚀 Nome do Projeto
+# 🚀 O GIRO ORBITAL
 ### Global Solution 2026.1 — Cross-Platform Application Development | FIAP
 
 ## Descrição
