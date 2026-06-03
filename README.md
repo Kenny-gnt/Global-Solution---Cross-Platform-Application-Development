@@ -81,27 +81,27 @@ npm install -g expo-cli
 
 ### Instalação
 
-Clone o repositório:
-
+**Clone o repositório:**
+```bash
 git clone https://github.com/Kenny-gnt/Global-Solution---Cross-Platform-Application-Development.git
-
-Acesse a pasta do projeto:
-
+```
+**Acesse a pasta do projeto:**
+```bash
 cd Global-Solution---Cross-Platform-Application-Development
-
-Instale as dependências:
-
+```
+**Instale as dependências:**
+```bash
 npm install
-
-Execute o projeto:
-
+```
+**Execute o projeto:**
+```bash
 npx expo start
-
-Escaneie o QR Code utilizando o Expo Go para abrir a aplicação.
+```
+**Escaneie o QR Code utilizando o Expo Go para abrir a aplicação.**
 
 ## 🎥 Vídeo de Demonstração
 
-[![Assista ao vídeo] https://youtu.be/zo7K587RQ2o?si=4HyTef7z6seWkOJi
+https://youtu.be/zo7K587RQ2o?si=4HyTef7z6seWkOJi
 
 ## 📄 Licença
 
