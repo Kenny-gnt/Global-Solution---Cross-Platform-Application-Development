@@ -21,6 +21,12 @@ export default function Settings() {
   const [energyLimit, setEnergyLimit] =
     useState("");
 
+  const [tempError, setTempError] =
+    useState("");
+
+  const [energyError, setEnergyError] =
+    useState("");
+
   useEffect(() => {
     loadSettings();
   }, []);
@@ -50,13 +56,26 @@ export default function Settings() {
   };
 
   const saveSettings = async () => {
-    if (!temperatureLimit || !energyLimit) {
-      Alert.alert(
-        "Erro",
-        "Preencha todos os campos."
+    let valid = true;
+
+    setTempError("");
+    setEnergyError("");
+
+    if (!temperatureLimit) {
+      setTempError(
+        "Informe o limite de temperatura."
       );
-      return;
+      valid = false;
     }
+
+    if (!energyLimit) {
+      setEnergyError(
+        "Informe o limite de energia."
+      );
+      valid = false;
+    }
+
+    if (!valid) return;
 
     try {
       await AsyncStorage.setItem(
@@ -130,11 +149,20 @@ export default function Settings() {
             },
           ]}
           value={temperatureLimit}
-          onChangeText={setTemperatureLimit}
+          onChangeText={(text) => {
+            setTemperatureLimit(text);
+            setTempError("");
+          }}
           keyboardType="numeric"
           placeholder="Ex: 40"
           placeholderTextColor="#92400E"
         />
+
+        {tempError ? (
+          <Text style={styles.errorText}>
+            {tempError}
+          </Text>
+        ) : null}
       </View>
 
       <View
@@ -166,11 +194,20 @@ export default function Settings() {
             },
           ]}
           value={energyLimit}
-          onChangeText={setEnergyLimit}
+          onChangeText={(text) => {
+            setEnergyLimit(text);
+            setEnergyError("");
+          }}
           keyboardType="numeric"
           placeholder="Ex: 20"
           placeholderTextColor="#92400E"
         />
+
+        {energyError ? (
+          <Text style={styles.errorText}>
+            {energyError}
+          </Text>
+        ) : null}
       </View>
 
       <TouchableOpacity
@@ -250,6 +287,12 @@ const styles = StyleSheet.create({
     padding: 15,
     borderRadius: 12,
     fontSize: 16,
+  },
+
+  errorText: {
+    color: "#EF4444",
+    marginTop: 5,
+    fontSize: 14,
   },
 
   button: {

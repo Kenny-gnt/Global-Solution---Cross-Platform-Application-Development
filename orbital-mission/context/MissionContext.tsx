@@ -40,10 +40,10 @@ export function MissionProvider({
   useEffect(() => {
     const interval = setInterval(async () => {
       const newTemperature =
-        Math.floor(Math.random() * 15) + 25;
+        Math.floor(Math.random() * 26) + 25;
 
       const newEnergy =
-        Math.floor(Math.random() * 25) + 75;
+        Math.floor(Math.random() * 100);
 
       const tempLimit =
         Number(
@@ -68,19 +68,16 @@ export function MissionProvider({
       ) {
         newAlert =
           "🚨 Temperatura e energia em estado crítico";
-
       } else if (
         newTemperature > tempLimit
       ) {
         newAlert =
           "⚠️ Temperatura acima do limite seguro";
-
       } else if (
         newEnergy < energyLimit
       ) {
         newAlert =
           "🚨 Energia abaixo do limite seguro";
-
       } else {
         newAlert =
           "Sistema operando normalmente";
